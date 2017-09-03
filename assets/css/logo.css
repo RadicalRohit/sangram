@@ -1,0 +1,35 @@
+.logo img {
+  max-width:400px;
+  margin-top:150px;
+  margin-bottom:22px;
+}
+
+@media (max-width:767px) {
+  .logo img {
+    max-width:300px;
+  }
+}
+
+.logo {
+  position:relative;
+  margin-bottom:200px;
+  width:100%;
+  height:400px;
+  background:#fff;
+}
+
+.logo:after {
+  position:absolute;
+  width:100%;
+  height:100%;
+  content:'';
+  background:inherit;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  transform-origin:top left;
+  transform:skewY(4deg);
+}
+

@@ -1,0 +1,38 @@
+form {
+  padding-left:150px;
+  padding-right:120px;
+  margin-bottom:50px;
+}
+
+@media (max-width:767px) {
+  form {
+    padding-left:50px;
+    padding-right:80px;
+  }
+}
+
+.form-control {
+  box-sizing:border-box;
+  border-radius:0px;
+  margin-bottom:5px;
+  background-color:#ebe8de;
+}
+
+.btn {
+  border-radius:0px;
+}
+
+.padding40 {
+  margin-top:30px;
+}
+
+.btn-default:hover {
+  color:#333;
+  background-color:#0084c8;
+}
+
+.btn-default:hover {
+  color:#333;
+  background-color:#368ebb;
+}
+
